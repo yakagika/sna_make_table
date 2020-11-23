@@ -1,10 +1,10 @@
-name:                V
+name:                sna-make-table
 version:             0.1.0.0
-github:              "githubuser/V"
+github:              "yakagika/sna_make_table"
 license:             MIT
-author:              "Author name here"
-maintainer:          "akagi15@cs.dis.titech.ac.jp"
-copyright:           "2018 Kaya Akagi"
+author:              "Kaya Akagi"
+maintainer:          "akagi_kaya@icloud.com"
+copyright:           "2020 Kaya Akagi"
 
 extra-source-files:
 - README.md
@@ -54,8 +54,9 @@ executables:
         - -rtsopts
         - -O3
         dependencies:
-        - V
+        - sna-make-table
 
+    # 24年データの変換
     convertAll24:
         main:                app/convertAll24.hs
         ghc-options:
@@ -63,7 +64,7 @@ executables:
         - -rtsopts
         - -O3
         dependencies:
-        - V
+        - sna-make-table
 
     fixLength:
         main:                app/FixLength.hs
@@ -72,7 +73,7 @@ executables:
         - -rtsopts
         - -O2
         dependencies:
-        - V
+        - sna-make-table
 
     convertKMP:
         main:                app/convertKMP.hs
@@ -81,7 +82,7 @@ executables:
         - -rtsopts
         - -O3
         dependencies:
-        - V
+        - sna-make-table
 
     convertMining:
         main:                app/convertMining.hs
@@ -90,7 +91,7 @@ executables:
         - -rtsopts
         - -O3
         dependencies:
-        - V
+        - sna-make-table
 
 
 
@@ -103,4 +104,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - V
+    - sna-make-table
