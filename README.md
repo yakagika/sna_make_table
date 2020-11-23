@@ -1,7 +1,7 @@
-* Make table (V-Table)を推計するためのプログラム
+# Make table (V-Table)を推計するためのプログラム
 経済センサスデータをData/Recordに入れることで推計が可能
 
-* 経済センサスデータ
+# 経済センサスデータ
 > •   平成24年経済センサス-活動調査
 > 【02～05,12】単独事業所調査票（鉱業,採掘業,砂利採取業・製造業・卸売業,小売業,産業共通）,【13】企業調査票及び【17～19】事業所調査票（鉱業,採掘業,砂利採取業・製造業・卸売業,小売業）
 
@@ -10,10 +10,11 @@
 
 (本リポジトリにはデータは含まれていません)
 
-* プログラム概要
+# プログラム概要
+------------------------------------------------------------------
 src フォルダ以降に具体的な推計手続きがあります.
 
-** 構成
+## 構成
 
 src
 └ VTable
@@ -24,17 +25,17 @@ src
         ├ Classification.hs
         └ Structure.hs
 
-*** src/VTable/Compilation.hs
+### src/VTable/Compilation.hs
     実際の推計に関わるプログラム
     これを実行することで,V表が推計される
 
-*** src/VTable/Compilation/Conversion.hs
+### src/VTable/Compilation/Conversion.hs
     申請によって得られた経済センサスデータを共通の形式に変換するプログラム
 
-*** src/VTable/Data/Structure.hs
+### src/VTable/Data/Structure.hs
     データ構造を定義
 
-*** src/VTable/Data/Classification
+### src/VTable/Data/Classification
     元データをデータ型に変換する際に使用するシソーラス
 
 
