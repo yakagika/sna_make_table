@@ -16,14 +16,14 @@ src フォルダ以降に具体的な推計手続きがあります.
 
 ## 構成
 
-src
-└ VTable
-    ├ Compliation
-    │ └ Conversion.hs
-    ├ Compliation.hs
-    └ Data
-        ├ Classification.hs
-        └ Structure.hs
+	src
+	└ VTable
+    	├ Compliation
+    	│ └ Conversion.hs
+    	├ Compliation.hs
+    	└ Data
+        	├ Classification.hs
+        	└ Structure.hs
 
 ### src/VTable/Compilation.hs
     実際の推計に関わるプログラム
