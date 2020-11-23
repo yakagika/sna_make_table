@@ -1,0 +1,106 @@
+name:                V
+version:             0.1.0.0
+github:              "githubuser/V"
+license:             MIT
+author:              "Author name here"
+maintainer:          "akagi15@cs.dis.titech.ac.jp"
+copyright:           "2018 Kaya Akagi"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/githubuser/V#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- array
+- vector
+- containers
+- conduit
+- cassava
+- parsec
+- deepseq
+- text
+- parallel
+- csv-parser
+- containers
+- process
+- monad-parallel
+- attoparsec
+- io-streams
+- bytestring
+- conduit-extra
+- resourcet
+- unicode-show
+- ghc-prim
+- directory
+
+library:
+  source-dirs: src
+
+executables:
+    main:
+        main:                app/Main.hs
+        ghc-options:
+        - -threaded
+        - -rtsopts
+        - -O3
+        dependencies:
+        - V
+
+    convertAll24:
+        main:                app/convertAll24.hs
+        ghc-options:
+        - -threaded
+        - -rtsopts
+        - -O3
+        dependencies:
+        - V
+
+    fixLength:
+        main:                app/FixLength.hs
+        ghc-options:
+        - -threaded
+        - -rtsopts
+        - -O2
+        dependencies:
+        - V
+
+    convertKMP:
+        main:                app/convertKMP.hs
+        ghc-options:
+        - -threaded
+        - -rtsopts
+        - -O3
+        dependencies:
+        - V
+
+    convertMining:
+        main:                app/convertMining.hs
+        ghc-options:
+        - -threaded
+        - -rtsopts
+        - -O3
+        dependencies:
+        - V
+
+
+
+tests:
+  V-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - V

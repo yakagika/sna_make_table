@@ -1,0 +1,34 @@
+Configuring textparser-0.1.0.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for textparser-0.1.0.0..
+Building library for textparser-0.1.0.0..
+[1 of 4] Compiling CSVAttoParserTLazy ( src/CSVAttoParserTLazy.hs, .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/CSVAttoParserTLazy.o )
+[2 of 4] Compiling CSVParserT       ( src/CSVParserT.hs, .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/CSVParserT.o )
+[3 of 4] Compiling CSVParserTLazy   ( src/CSVParserTLazy.hs, .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/CSVParserTLazy.o )
+[4 of 4] Compiling Paths_textparser ( .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/autogen/Paths_textparser.hs, .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/Paths_textparser.o )
+[1 of 4] Compiling CSVAttoParserTLazy ( src/CSVAttoParserTLazy.hs, .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/CSVAttoParserTLazy.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 4] Compiling CSVParserT       ( src/CSVParserT.hs, .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/CSVParserT.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 4] Compiling CSVParserTLazy   ( src/CSVParserTLazy.hs, .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/CSVParserTLazy.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[4 of 4] Compiling Paths_textparser ( .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/autogen/Paths_textparser.hs, .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/Paths_textparser.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing executable 'CSVParser-exe' for textparser-0.1.0.0..
+Building executable 'CSVParser-exe' for textparser-0.1.0.0..
+[1 of 2] Compiling Main             ( app/Main.hs, .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/CSVParser-exe/CSVParser-exe-tmp/Main.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 2] Compiling Paths_textparser ( .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/CSVParser-exe/autogen/Paths_textparser.hs, .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/CSVParser-exe/CSVParser-exe-tmp/Paths_textparser.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Linking .stack-work-profile/dist/x86_64-osx/Cabal-2.2.0.1/build/CSVParser-exe/CSVParser-exe ...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Installing library in /Users/kaya/Documents/Programs/Haskell/V/.stack-work-profile/install/x86_64-osx/lts-12.18/8.4.4/lib/x86_64-osx-ghc-8.4.4/textparser-0.1.0.0-2prxv5dtwqVHDJV3WNohUo
+Installing executable CSVParser-exe in /Users/kaya/Documents/Programs/Haskell/V/.stack-work-profile/install/x86_64-osx/lts-12.18/8.4.4/bin
+Registering library for textparser-0.1.0.0..
