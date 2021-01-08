@@ -35,7 +35,7 @@ src フォルダ以降に具体的な推計手続きがあります.
         		└ Structure.hs
 
 各プログラムにはHTML形式の簡単なDocument (Haddock)があります.
-haddock/index.html から閲覧してください.
+[haddock/index.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/yakagika/sna_make_table/master/haddock/index.html) から閲覧してください.
 
 
 ### src/VTable/Compilation.hs
