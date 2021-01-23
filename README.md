@@ -1,7 +1,8 @@
 # Make table (V-Table)を推計するためのプログラム
 
-産業別商品別商品算出表([https://www.soumu.go.jp/toukei_toukatsu/data/io/index.htm](url) )
-を経済センサス個票データから推計するためのプログラムです.
+産業別商品別商品算出表を経済センサス個票データから推計するためのプログラムです.
+全体の動機や背景は, こちらの論文を参照してください.
+[http://www.esri.go.jp/jp/archive/e_rnote/e_rnote060/e_rnote057.pdf](url)
 
 言語はHaskellで記述されています.
 
