@@ -1,6 +1,5 @@
 .stack-work/
 V.cabal
-*.xlsx
 Data/Doc
 Data/Record
 Data/Result
